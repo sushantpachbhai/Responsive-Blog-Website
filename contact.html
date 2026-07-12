@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/utilis.css" />
+    <link rel="stylesheet" href="css/mobile.css">
+  </head>
+  <body>
+    <nav class="navbar max-width1 m-auto">
+      <div class="left-side">
+        <span class="font2">WriteHub</span>
+        <ul class="font1">
+          <li><a href="mysolution.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <form action="search.html">
+          <input
+            type="text"
+            name="Article-search"
+            placeholder="Article Search"
+            class="search-text font1"
+          />
+          <button type="submit" class="font2">search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="contact-content max-width1 m-auto">
+      <div class="max-width1 m-auto"><hr /></div>
+      <form action="#">
+        <div class="form-control">
+          <label for="name" class="form-label font2">Username</label>
+          <input type="text" id="name" placeholder="Enter Name" class="form-input font1" />
+        </div>
+        <div class="form-control">
+          <label for="email" class=" form-label font2">Email Address</label>
+          <input type="email" id="email" placeholder="Enter Email" class="form-input font1" />
+        </div>
+        <div class="form-control">
+          <label for="number" class=" form-label font2">Phone Number</label>
+          <input type="text" id="number" placeholder="Enter Phone Number" class="form-input font1" />
+        </div>
+        <div class="form-control">
+          <label for="query" class=" form-label font2">Enter your query</label>
+          <textarea name="query" id="query" placeholder="Enter query" max="50px" class="form-input font1"></textarea>
+        </div>
+        <div class=" right-side form-control">
+          <button class="contact-button font2">submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer m-auto">
+      <p>Copywrite WriteHub</p>
+      <a href="home.svg">&copy;visit WriteHub</a>
+    </div>
+  </body>
+</html>
